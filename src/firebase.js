@@ -6,13 +6,13 @@ import "firebase/compat/storage";
 // import { cityDb } from './temp/m-city-export';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBK5Ntm56dwkgPsJjrNQvZoJO4Ra1NcSlE",
-  authDomain: "mcity-be50d.firebaseapp.com",
-  projectId: "mcity-be50d",
-  storageBucket: "mcity-be50d.appspot.com",
-  messagingSenderId: "830895236791",
-  appId: "1:830895236791:web:2f95951657334a2b79cf32",
-  measurementId: "G-L63ZDH5RPG",
+  apiKey: "AIzaSyArC9EHLJ2zSf9Ctg92PJLT-CFFPr4IWTI",
+  authDomain: "mcity-db737.firebaseapp.com",
+  projectId: "mcity-db737",
+  storageBucket: "mcity-db737.appspot.com",
+  messagingSenderId: "786523337418",
+  appId: "1:786523337418:web:2c527db8e8bfe201dafa33",
+  measurementId: "G-XQQEB8L8EN",
 };
 
 // Initialize Firebase
