@@ -1,28 +1,28 @@
-import firebase from "firebase/compat/app";
-import "firebase/compat/auth";
-import "firebase/compat/firestore";
-import "firebase/compat/storage";
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
+import 'firebase/storage';
 
 // import { cityDb } from './temp/m-city-export';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyArC9EHLJ2zSf9Ctg92PJLT-CFFPr4IWTI",
-  authDomain: "mcity-db737.firebaseapp.com",
-  projectId: "mcity-db737",
-  storageBucket: "mcity-db737.appspot.com",
-  messagingSenderId: "786523337418",
-  appId: "1:786523337418:web:2c527db8e8bfe201dafa33",
-  measurementId: "G-XQQEB8L8EN",
+    apiKey: "AIzaSyBK5Ntm56dwkgPsJjrNQvZoJO4Ra1NcSlE",
+    authDomain: "mcity-be50d.firebaseapp.com",
+    projectId: "mcity-be50d",
+    storageBucket: "mcity-be50d.appspot.com",
+    messagingSenderId: "830895236791",
+    appId: "1:830895236791:web:2f95951657334a2b79cf32",
+    measurementId: "G-L63ZDH5RPG"
 };
 
-// Initialize Firebase
+  // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const DB = firebase.firestore();
-const matchesCollection = DB.collection("matches");
-const playersCollection = DB.collection("players");
-const positionsCollection = DB.collection("positions");
-const promotionsCollection = DB.collection("promotions");
-const teamsCollection = DB.collection("teams");
+const matchesCollection = DB.collection('matches');
+const playersCollection = DB.collection('players');
+const positionsCollection = DB.collection('positions');
+const promotionsCollection = DB.collection('promotions');
+const teamsCollection = DB.collection('teams');
 
 // cityDb.matches.forEach(item => {
 //   matchesCollection.add(item)
@@ -44,11 +44,13 @@ const teamsCollection = DB.collection("teams");
 //   teamsCollection.add(item)
 // });
 
+
+
 export {
-  firebase,
-  matchesCollection,
-  playersCollection,
-  positionsCollection,
-  promotionsCollection,
-  teamsCollection,
-};
+    firebase,
+    matchesCollection,
+    playersCollection,
+    positionsCollection,
+    promotionsCollection,
+    teamsCollection
+}
